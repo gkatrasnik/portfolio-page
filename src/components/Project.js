@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
 
 const Project = (props) => {
@@ -9,11 +9,17 @@ const Project = (props) => {
       <Card.Body>
         <Card.Title>{props.project.text}</Card.Title>
         <Card.Text>{props.project.description}</Card.Text>
-        <Card.Link href={props.project.github}>Github</Card.Link>
-        {props.project.live && (
-          <Card.Link href={props.project.live}>Live Link</Card.Link>
-        )}
       </Card.Body>
+      <Card.Footer>
+        <Card.Link href={props.project.github} as={Button}>
+          Github
+        </Card.Link>
+        {props.project.live && (
+          <Card.Link href={props.project.live} as={Button}>
+            Live Site
+          </Card.Link>
+        )}
+      </Card.Footer>
     </Card>
   );
 };

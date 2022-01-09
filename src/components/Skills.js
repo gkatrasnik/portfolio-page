@@ -3,8 +3,8 @@ import { Container } from "react-bootstrap";
 const Skills = (props) => {
   return (
     <Container className="my-5 custom-scroll" id="skills">
-      <h1 className="text-center">My skills</h1>
-      <h2 className="text-center mt-3">Front-end skills</h2>
+      <h1 className="text-center">Tools I have worked with:</h1>
+      <h2 className="text-center mt-3">Front-end </h2>
       <div className="d-flex flex-row flex-wrap justify-content-center">
         {props.frontendSkills.map((skill, index) => {
           return (
@@ -15,7 +15,7 @@ const Skills = (props) => {
           );
         })}
       </div>
-      <h2 className="text-center mt-3">Back-end skills</h2>
+      <h2 className="text-center mt-3">Back-end </h2>
       <div className="d-flex flex-row flex-wrap justify-content-center">
         {props.backendSkills.map((skill, index) => {
           return (
@@ -26,7 +26,7 @@ const Skills = (props) => {
           );
         })}
       </div>
-      <h2 className="text-center mt-3">Other skills</h2>
+      <h2 className="text-center mt-3">Other </h2>
       <div className="d-flex flex-row flex-wrap justify-content-center">
         {props.otherSkills.map((skill, index) => {
           return (

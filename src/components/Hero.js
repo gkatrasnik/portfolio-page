@@ -6,7 +6,7 @@ const Hero = () => {
     <Container className="my-5 custom-scroll" id="aboutme">
       <Row>
         <Col className="d-flex flex-row flex-wrap justify-content-center align-items-center">
-          <div>
+          <div className="d-flex flex-column justify-content-center align-items-center">
             <div className="d-flex flex-row ">
               <h4>Gašper Katrašnik</h4>
             </div>

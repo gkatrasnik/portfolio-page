@@ -6,7 +6,8 @@ function Navigation(props) {
     <Navbar
       collapseOnSelect
       expand="lg"
-      style={{ borderBottom: "1px solid black", backgroundColor: "lightgrey" }}
+      className="bg-light border-bottom
+      "
       sticky="top"
     >
       <Container>
