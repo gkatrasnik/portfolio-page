@@ -1,0 +1,18 @@
+/*! `Custom` Bootstrap 5 theme */
+
+/*! Import Bootstrap 5 variables */
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Add SASS theme customizations here..
+
+.custom-scroll {
+  scroll-margin-top: 250px;
+}
+
+i {
+  font-size: 4rem;
+}
