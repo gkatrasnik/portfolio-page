@@ -71,18 +71,18 @@ const frontendSkills = [
 const backendSkills = [
   //backend
   { name: "NodeJS", icon: <i class="devicon-nodejs-plain colored"></i> },
-  { name: "Express", icon: <i class="devicon-express-original colored"></i> },
+  { name: "Express", icon: <i class="devicon-express-original "></i> },
   { name: "MongoDB", icon: <i class="devicon-mongodb-plain colored"></i> },
   { name: "Firebase", icon: <i class="devicon-firebase-plain colored"></i> },
 ];
 //other
 const otherSkills = [
   { name: "Git", icon: <i class="devicon-git-plain colored"></i> },
-  { name: "Github", icon: <i class="devicon-github-original colored"></i> },
+  { name: "Github", icon: <i class="devicon-github-original "></i> },
   { name: "Npm", icon: <i class="devicon-npm-original-wordmark colored"></i> },
   { name: "Jasmine", icon: <i class="devicon-jasmine-plain colored"></i> },
   { name: "Webpack", icon: <i class="devicon-webpack-plain colored"></i> },
-  { name: "Linux", icon: <i class="devicon-linux-plain colored"></i> },
+  { name: "Linux", icon: <i class="devicon-linux-plain "></i> },
   { name: "Heroku", icon: <i class="devicon-heroku-plain colored"></i> },
 ];
 

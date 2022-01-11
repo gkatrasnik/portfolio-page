@@ -5,22 +5,22 @@ const Hero = () => {
   return (
     <Container className="my-5 custom-scroll" id="aboutme">
       <Row>
-        <Col className="d-flex flex-row flex-wrap justify-content-center align-items-center">
-          <div className="d-flex flex-column justify-content-center align-items-center">
+        <Col className="d-flex flex-column align-items-center justify-content-center">
+          <div className="d-flex flex-column align-items-start justify-content-center">
             <div className="d-flex flex-row ">
               <h4>Gašper Katrašnik</h4>
             </div>
 
-            <h1>Full-stack developer</h1>
-            <p>Motivated and passionate web developer</p>
+            <h1 className="mb-3">Full-stack developer</h1>
+
             <div className="d-flex flex-row justify-content-center align-items-center">
-              <Button href="/projects" className="m-2">
+              <Button href="#projects" className="m-2 ">
                 Projects
               </Button>
-              <Button href="/skills" className="m-2">
+              <Button href="#skills" className="m-2">
                 Skills
               </Button>
-              <Button href="/contact" className="m-2">
+              <Button variant="secondary" href="#contact" className="m-2">
                 Contact
               </Button>
             </div>

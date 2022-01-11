@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Contact = () => {
   return (
     <Container className="my-5 custom-scroll" id="contact">
-      <h1 className="text-center">Contact me</h1>
+      <h1 className="text-center">Contact me!</h1>
 
       <div className="d-flex flex-row justify-content-center flex-wrap">
         <a href="mailto:gkatrasnik@gmail.com" className="m-3">
@@ -20,7 +20,7 @@ const Contact = () => {
         </a>
 
         <a href="https://twitter.com/gasperkatrasnik" className="m-3">
-          <i class="devicon-twitter-original "></i>
+          <i class="devicon-twitter-original"></i>
         </a>
       </div>
     </Container>

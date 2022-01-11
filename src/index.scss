@@ -1,10 +1,32 @@
 /*! `Custom` Bootstrap 5 theme */
+@import url(https://cdn.linearicons.com/free/1.0.0/icon-font.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700);
+$headings-font-family: Montserrat;
+
+$enable-grid-classes: true;
+$primary: #3dcfff;
+$secondary: #7500eb;
+$success: #00948a;
+$danger: #cc330d;
+$info: #969696;
+$warning: #ebee11;
+$light: #fafafa;
+$dark: #000f2e;
+$carddark: #1f335b;
+$enable-gradients: false;
+$spacer: 1.2rem;
+$border-width: 3px;
+$btn-border-radius: 0;
+$border-radius: 0;
+$border-radius-sm: 0;
 
 /*! Import Bootstrap 5 variables */
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
-
+$body-bg: $dark;
+$body-color: $white;
+$card-bg: $carddark;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Add SASS theme customizations here..
@@ -18,10 +40,16 @@ i {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: white;
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: $secondary;
+  text-underline-position: under;
 }
