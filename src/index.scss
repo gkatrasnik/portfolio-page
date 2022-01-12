@@ -42,17 +42,9 @@ i {
   font-size: 3rem;
 }
 
-i:hover {
-  color: grey;
-}
-
 a {
   color: white;
   text-decoration: none;
-}
-
-a:hover {
-  color: white;
 }
 
 h1 {
@@ -68,4 +60,8 @@ h2 {
 }
 .logofont {
   font-family: $logo;
+}
+
+.screenheight {
+  height: calc(100vh - 80px);
 }

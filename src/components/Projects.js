@@ -4,7 +4,7 @@ import Project from "./Project";
 const Projects = (props) => {
   return (
     <Container className="my-5 custom-scroll" id="projects">
-      <h1 className="text-center my-5">Projects I am proud of:</h1>
+      <h1 className="text-center mt-5 mb-3">Projects I am proud of:</h1>
       <Row>
         {props.projects.map((item, index) => {
           return (
