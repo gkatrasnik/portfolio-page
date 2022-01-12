@@ -20,7 +20,7 @@ const projects = [
     github: "https://github.com/gkatrasnik/battleships-game",
     live: "https://gkatrasnik.github.io/battleships-game/",
     description:
-      "Odin Project Batleships game. I used vanilla JS and CSS, all bundeld together with Webpack. The game was developed using test driven developement and object oriented programming.",
+      "Odin Project Batleships game. I used vanilla JavaScript and CSS, all bundeld together with Webpack. The game was developed using test driven developement and object oriented programming.",
   },
   {
     text: "Natoci Vodo",
@@ -56,6 +56,8 @@ const frontendSkills = [
   { name: "Html5", icon: <i class="devicon-html5-plain colored"></i> },
   ,
   { name: "Css3", icon: <i class="devicon-css3-plain colored"></i> },
+  { name: "SASS", icon: <i class="devicon-sass-original colored"></i> },
+
   { name: "Bootstrap", icon: <i class="devicon-bootstrap-plain colored"></i> },
   {
     name: "Tailwind",
@@ -65,7 +67,6 @@ const frontendSkills = [
     name: "Material UI",
     icon: <i class="devicon-materialui-plain colored"></i>,
   },
-  { name: "SASS", icon: <i class="devicon-sass-original colored"></i> },
   { name: "Gatsby", icon: <i class="devicon-gatsby-plain colored"></i> },
 ];
 const backendSkills = [

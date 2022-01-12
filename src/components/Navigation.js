@@ -13,11 +13,11 @@ function Navigation(props) {
       variant="dark"
     >
       <Container>
-        {/*<Navbar.Brand>
+        <Navbar.Brand>
           <Nav.Link href="#aboutme">
-            <h3 className="text-white">Gašper Katrašnik</h3>
+            <h3 className="text-white">GK</h3>
           </Nav.Link>
-        </Navbar.Brand>*/}
+        </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

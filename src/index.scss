@@ -1,17 +1,19 @@
 /*! `Custom` Bootstrap 5 theme */
 @import url(https://cdn.linearicons.com/free/1.0.0/icon-font.min.css);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700);
-$headings-font-family: Montserrat;
+@import url(https://fonts.googleapis.com/css2?family=Audiowide&display=swap);
+$headings-font-family: Audiowide;
+$font-family-base: Montserrat;
 
 $enable-grid-classes: true;
 $primary: #3dcfff;
-$secondary: #7500eb;
+$secondary: #781eac;
 $success: #00948a;
 $danger: #cc330d;
 $info: #969696;
 $warning: #ebee11;
 $light: #fafafa;
-$dark: #000f2e;
+$dark: #000a1d;
 $carddark: #1f335b;
 $enable-gradients: false;
 $spacer: 1.2rem;
@@ -36,7 +38,11 @@ $card-bg: $carddark;
 }
 
 i {
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+i:hover {
+  color: grey;
 }
 
 a {

@@ -6,7 +6,7 @@ const Contact = () => {
     <Container className="my-5 custom-scroll" id="contact">
       <h1 className="text-center">Contact me!</h1>
 
-      <div className="d-flex flex-row justify-content-center flex-wrap">
+      <div className="d-flex flex-row justify-content-center flex-wrap my-3">
         <a href="mailto:gkatrasnik@gmail.com" className="m-3">
           <i class="far fa-envelope"></i>
         </a>
