@@ -8,7 +8,10 @@ const Skills = (props) => {
       <div className="d-flex flex-row flex-wrap justify-content-center">
         {props.frontendSkills.map((skill, index) => {
           return (
-            <div className=" p-2 m-2" key={index}>
+            <div
+              className=" p-2 m-2 d-flex flex-column justify-content-center align-items-center"
+              key={index}
+            >
               {skill.icon}
               <p className="text-center">{skill.name}</p>
             </div>
@@ -20,7 +23,10 @@ const Skills = (props) => {
       <div className="d-flex flex-row flex-wrap justify-content-center">
         {props.backendSkills.map((skill, index) => {
           return (
-            <div className=" p-2 m-2" key={index}>
+            <div
+              className=" p-2 m-2 d-flex flex-column justify-content-center align-items-center"
+              key={index}
+            >
               {skill.icon}
               <p className="text-center">{skill.name}</p>
             </div>
@@ -31,7 +37,10 @@ const Skills = (props) => {
       <div className="d-flex flex-row flex-wrap justify-content-center">
         {props.otherSkills.map((skill, index) => {
           return (
-            <div className=" p-2 m-2" key={index}>
+            <div
+              className=" p-2 m-2 d-flex flex-column justify-content-center align-items-center"
+              key={index}
+            >
               {skill.icon}
               <p className="text-center">{skill.name}</p>
             </div>

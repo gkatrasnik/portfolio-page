@@ -7,7 +7,9 @@ const Project = (props) => {
     <Card style={{ width: "18rem" }} className="my-3">
       <Card.Img src={props.project.image} />
       <Card.Body>
-        <Card.Title>{props.project.text}</Card.Title>
+        <Card.Title>
+          <h4>{props.project.text}</h4>
+        </Card.Title>
         <Card.Text>{props.project.description}</Card.Text>
       </Card.Body>
       <Card.Footer>
