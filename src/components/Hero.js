@@ -12,17 +12,15 @@ const Hero = () => {
               <h3 className="text-primary px-2"> Gašper Katrašnik</h3>
             </div>
 
-            <h1 className="mb-3">Full-stack developer</h1>
+            <h1 className="mb-4">Full-stack developer</h1>
             <h4>from Slovenia</h4>
 
             <div className="d-flex flex-row justify-content-center align-items-center">
-              <Button href="#projects" className="m-2 ">
-                Projects
-              </Button>
-              <Button href="#skills" className="m-2">
+              <Button href="#projects">Projects</Button>
+              <Button href="#skills" className="mx-3">
                 Skills
               </Button>
-              <Button variant="secondary" href="#contact" className="m-2">
+              <Button variant="secondary" href="#contact">
                 Contact
               </Button>
             </div>
