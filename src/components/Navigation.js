@@ -3,19 +3,13 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 function Navigation(props) {
   return (
-    <Navbar
-      collapseOnSelect
-      expand="lg"
-      className=" border-bottom border-secondary
-      "
-      sticky="top"
-      bg="dark"
-      variant="dark"
-    >
+    <Navbar collapseOnSelect expand="lg" sticky="top" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand>
-          <Nav.Link href="#aboutme">
-            <h3 className="text-white">GK</h3>
+        <Navbar.Brand className="mx-2">
+          <Nav.Link href="#aboutme" className=" p-0">
+            <h1 className="text-primary border-bottom border-secondary m-0 logofont">
+              GK
+            </h1>
           </Nav.Link>
         </Navbar.Brand>
 

@@ -8,10 +8,12 @@ const Hero = () => {
         <Col className="d-flex flex-column align-items-center justify-content-center">
           <div className="d-flex flex-column align-items-start justify-content-center">
             <div className="d-flex flex-row ">
-              <h4>Gašper Katrašnik</h4>
+              <h3>Hi, I am </h3>
+              <h3 className="text-primary px-2"> Gašper Katrašnik</h3>
             </div>
 
             <h1 className="mb-3">Full-stack developer</h1>
+            <h4>from Slovenia</h4>
 
             <div className="d-flex flex-row justify-content-center align-items-center">
               <Button href="#projects" className="m-2 ">

@@ -23,7 +23,7 @@ const projects = [
       "Odin Project Batleships game. I used vanilla JavaScript and CSS, all bundeld together with Webpack. The game was developed using test driven developement and object oriented programming.",
   },
   {
-    text: "Natoci Vodo",
+    text: "Natoči Vodo",
     image: natocivodo,
     github: "https://github.com/gkatrasnik/natoci-vodo",
     live: "https://natoci-vodo.netlify.app/",
