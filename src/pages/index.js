@@ -6,6 +6,8 @@ import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
+import ThreeLazy from "../components/three-lazy";
+
 import battleships from "../images/battleships.png";
 import natocivodo from "../images/natocivodo.png";
 import odinbook from "../images/odinbook.png";
@@ -20,7 +22,7 @@ const projects = [
     github: "https://github.com/gkatrasnik/battleships-game",
     live: "https://gkatrasnik.github.io/battleships-game/",
     description:
-      "Odin Project Batleships game. I used vanilla JavaScript and CSS, all bundeld together with Webpack. The game was developed using test driven developement and object oriented programming.",
+      "For this game, I used vanilla JavaScript and CSS, all bundled together with Webpack. The game was developed using test driven developement and object oriented programming.",
   },
   {
     text: "Natoči Vodo",
@@ -28,7 +30,7 @@ const projects = [
     github: "https://github.com/gkatrasnik/natoci-vodo",
     live: "https://natoci-vodo.netlify.app/",
     description:
-      "This is my personal project. The idea behing the project is, that people can add locations of drinking water sources. The app is build with React and Firebase, using also Firebase Auth services. I used Leaflet library for map funtionality and Material UI for styles. The app is PWA and hosted on Netlify.",
+      "This is my personal project. The idea behing the project is, that people can add locations of drinking water sources. The app is build with React and Firebase, using also Firebase Auth services. I used Leaflet library for map functionality and Material UI for styles. App is a PWA hosted on Netlify.",
   },
   {
     text: "Odin Book",
@@ -36,7 +38,7 @@ const projects = [
     github: "https://github.com/gkatrasnik/odin-book-frontend",
     live: "https://odinbook.netlify.app/",
     description:
-      "Odin book is a 'fake' social network. Users can write posts and see their friends posts. Users can send and accept friend requests, and see notifications. The app is made with React and Bootstrap, styled with Sass. App is hosted on Netlify",
+      "Odin book is a 'fake' social network. Users can write posts and see their friends posts. Users can send and accept friend requests, and see notifications. The app is made with React and Bootstrap, styled with Sass. App is a PWA hosted on Netlify.",
   },
   {
     text: "Odin Book API",
@@ -93,18 +95,15 @@ const IndexPage = () => {
     <>
       <Helmet>
         <title>Gašper Katrašnik</title>
-        <link
-          rel="stylesheet"
-          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-          crossorigin="anonymous"
-        />
 
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
         />
       </Helmet>
+      <div className="canvasParent">
+        <ThreeLazy />
+      </div>
       <main>
         <Navigation />
         <Hero />

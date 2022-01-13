@@ -34,6 +34,28 @@ $card-bg: $carddark;
 
 // Add SASS theme customizations here..
 
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.canvasParent {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  width: 100vw;
+  color: white;
+
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+}
+
 .custom-scroll {
   scroll-margin-top: 150px;
 }

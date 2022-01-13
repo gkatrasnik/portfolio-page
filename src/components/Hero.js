@@ -29,17 +29,21 @@ const Hero = () => {
               <h1 className="mb-3">Full-stack developer</h1>
               <h3 className="mb-4">from Slovenia</h3>
 
-              <div className="d-flex flex-row justify-content-center align-items-center">
-                <Button href="#projects" className="me-3">
+              <div className="d-flex flex-row flex-wrap  align-items-center">
+                <Button href="#projects" className="me-3 my-2">
                   Projects
                 </Button>
-                <Button href="#skills" className="me-3">
+                <Button href="#skills" className="me-3 my-2">
                   Skills
                 </Button>
-                <Button variant="secondary" href="#contact" className="me-3">
+                <Button
+                  variant="secondary"
+                  href="#contact"
+                  className="me-3 my-2"
+                >
                   Contact
                 </Button>
-                <Button variant="light" href={cv} download>
+                <Button variant="light" className=" my-2" href={cv} download>
                   CV
                 </Button>
               </div>
