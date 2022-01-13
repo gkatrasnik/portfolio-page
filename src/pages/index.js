@@ -6,7 +6,7 @@ import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
-import ThreeLazy from "../components/three-lazy";
+import ThreeCanvas from "../components/three-canvas";
 
 import battleships from "../images/battleships.png";
 import natocivodo from "../images/natocivodo.png";
@@ -102,7 +102,7 @@ const IndexPage = () => {
         />
       </Helmet>
       <div className="canvasParent">
-        <ThreeLazy />
+        <ThreeCanvas />
       </div>
       <main>
         <Navigation />
