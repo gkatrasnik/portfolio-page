@@ -1,3 +1,5 @@
+https://gasper-katrasnik.netlify.app
+
 # portfolio-page
 
-personal porfolio / cv webpage, made with gatsby
+personal portfolio page, made with gatsby and hosted on Netlify
