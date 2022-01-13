@@ -13,7 +13,7 @@ const ThreeStars = () => {
   useEffect(() => {
     const onScroll = () => {
       return (
-        (mesh.current.rotation.x += 0.015), (mesh.current.rotation.y += 0.015)
+        (mesh.current.rotation.x += 0.01), (mesh.current.rotation.y += 0.01)
       );
     };
     // clean up code
