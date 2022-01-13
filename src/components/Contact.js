@@ -14,18 +14,18 @@ const Contact = () => {
             href="https://www.linkedin.com/in/gasperkatrasnik/"
             className="m-3"
           >
-            <i class="devicon-linkedin-plain "></i>
+            <i className="devicon-linkedin-plain "></i>
           </a>
 
           <a href="https://github.com/gkatrasnik" className="m-3">
-            <i class="devicon-github-original "></i>
+            <i className="devicon-github-original "></i>
           </a>
 
           <a href="https://twitter.com/gasperkatrasnik" className="m-3">
-            <i class="devicon-twitter-original"></i>
+            <i className="devicon-twitter-original"></i>
           </a>
           <a href="https://www.facebook.com/gasper.katrasnik/" className="m-3">
-            <i class="devicon-facebook-original"></i>
+            <i className="devicon-facebook-original"></i>
           </a>
         </div>
       </div>

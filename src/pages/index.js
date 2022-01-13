@@ -101,9 +101,7 @@ const IndexPage = () => {
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
         />
       </Helmet>
-      <div className="canvasParent">
-        <ThreeCanvas />
-      </div>
+      <ThreeCanvas />
       <main>
         <Navigation />
         <Hero />

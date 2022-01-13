@@ -13,7 +13,7 @@ const ThreeStars = () => {
   useEffect(() => {
     const onScroll = () => {
       return (
-        (mesh.current.rotation.x += 0.01), (mesh.current.rotation.y += 0.01)
+        (mesh.current.rotation.x += 0.015), (mesh.current.rotation.y += 0.015)
       );
     };
     // clean up code
@@ -21,13 +21,6 @@ const ThreeStars = () => {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  /* 
-  useFrame(() => {
-    return (
-      (mesh.current.rotation.x += 0.001), (mesh.current.rotation.y += 0.001)
-    );
-  });*/
 
   return (
     <mesh ref={mesh}>
