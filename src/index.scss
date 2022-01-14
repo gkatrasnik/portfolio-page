@@ -34,6 +34,10 @@ $card-bg: $carddark;
 
 // Add SASS theme customizations here..
 
+html {
+  scroll-behavior: smooth;
+}
+
 canvas {
   position: fixed;
   top: 0;
