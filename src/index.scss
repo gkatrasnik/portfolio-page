@@ -57,7 +57,7 @@ main {
 }
 
 .custom-scroll {
-  scroll-margin-top: 150px;
+  scroll-margin-top: 14rem;
 }
 
 i {
@@ -86,4 +86,8 @@ h2 {
 
 .screenheight {
   height: calc(100vh - 80px);
+}
+
+.hero-text {
+  text-decoration: none;
 }

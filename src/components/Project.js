@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Project = (props) => {
   return (
-    <Card style={{ width: "18rem" }} className="my-3">
+    <Card style={{ width: "16rem" }} className="my-3">
       <Card.Img src={props.project.image} />
       <Card.Body>
         <Card.Title>

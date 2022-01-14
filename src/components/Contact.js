@@ -3,8 +3,10 @@ import { Container } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <Container className="my-5 py-5 custom-scroll" id="contact">
-      <h1 className="text-center">Contact me!</h1>
+    <Container className="my-5 py-5 ">
+      <h1 className="text-center custom-scroll" id="contact">
+        Contact me!
+      </h1>
       <div className="d-flex flex-column justify-content-center  my-3">
         <a href="mailto:gkatrasnik@gmail.com" className="text-center mt-2">
           <h3>gkatrasnik@gmail.com</h3>

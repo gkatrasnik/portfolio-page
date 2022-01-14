@@ -30,7 +30,7 @@ const projects = [
     github: "https://github.com/gkatrasnik/natoci-vodo",
     live: "https://natoci-vodo.netlify.app/",
     description:
-      "This is my personal project. The idea behing the project is, that people can add locations of drinking water sources. The app is build with React and Firebase, using also Firebase Auth services. I used Leaflet library for map functionality and Material UI for styles. App is a PWA hosted on Netlify.",
+      "This is my personal project. The idea is, that people can add locations of drinking water sources. The app is build with React and Firebase, using also Firebase Auth services. I used Leaflet and MaterialUI libraries. App is a PWA hosted on Netlify.",
   },
   {
     text: "Odin Book",

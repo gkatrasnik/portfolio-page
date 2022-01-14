@@ -2,8 +2,10 @@ import * as React from "react";
 import { Container } from "react-bootstrap";
 const Skills = (props) => {
   return (
-    <Container className="my-5 py-5 custom-scroll" id="skills">
-      <h1 className="text-center  mb-4">Tools I have worked with:</h1>
+    <Container className="my-5 py-5 ">
+      <h1 className="text-center  mb-4 custom-scroll" id="skills">
+        Tools I have worked with:
+      </h1>
       <h2 className="text-center mt-3">Front-end: </h2>
       <div className="d-flex flex-row flex-wrap justify-content-center">
         {props.frontendSkills.map((skill, index) => {

@@ -5,7 +5,7 @@ import cv from "../assets/cv.pdf";
 
 const Hero = () => {
   return (
-    <Container className="mb-5 custom-scroll screenheight" id="aboutme">
+    <Container className="mb-3 custom-scroll screenheight" id="aboutme">
       <Row className="h-100">
         <Col className=" d-md-flex flex-row-reverse  justify-content-evenly align-items-center">
           <div className="d-flex flex-column align-items-center justify-content-center my-5">
@@ -21,13 +21,15 @@ const Hero = () => {
 
           <div className="d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column align-items-start justify-content-center">
+              <h3 className="hero-text">Hello!</h3>
               <div className="d-flex flex-row ">
-                <h3>Hi, I am </h3>
-                <h3 className="text-primary px-2"> Gašper Katrašnik</h3>
+                <h2 className="hero-text">I am </h2>
+                <h2 className="text-primary px-2 hero-text">
+                  Gašper Katrašnik
+                </h2>
               </div>
 
-              <h1 className="mb-3">Full-stack developer</h1>
-              <h3 className="mb-4">from Slovenia</h3>
+              <h4 className="mb-3">Full-stack Web Developer</h4>
 
               <div className="d-flex flex-row flex-wrap  align-items-center">
                 <Button href="#projects" className="me-3 my-2">
