@@ -95,3 +95,12 @@ h2 {
 .hero-text {
   text-decoration: none;
 }
+
+.custom-width {
+}
+@include media-breakpoint-up(sm) {
+  .custom-width {
+    width: 80%;
+    max-width: 768px;
+  }
+}

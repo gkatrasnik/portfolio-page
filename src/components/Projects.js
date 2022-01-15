@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Project from "./Project";
 const Projects = (props) => {
   return (
-    <Container className="mb-5 pb-5 ">
+    <Container className="my-5 py-5 ">
       <h1 className="text-center mb-3 custom-scroll" id="projects">
         Projects I am proud of:
       </h1>

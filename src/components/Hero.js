@@ -5,7 +5,7 @@ import cv from "../assets/cv.pdf";
 
 const Hero = () => {
   return (
-    <Container className="mb-3 custom-scroll screenheight" id="aboutme">
+    <Container className="mb-3 custom-scroll screenheight" id="hero">
       <Row className="h-100">
         <Col className=" d-md-flex flex-row-reverse  justify-content-evenly align-items-center">
           <div className="d-flex flex-column align-items-center justify-content-center my-5">

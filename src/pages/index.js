@@ -7,6 +7,7 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 import ThreeCanvas from "../components/three-canvas";
+import Aboutme from "../components/Aboutme";
 
 import battleships from "../images/battleships.png";
 import natocivodo from "../images/natocivodo.png";
@@ -105,6 +106,7 @@ const IndexPage = () => {
       <main>
         <Navigation />
         <Hero />
+        <Aboutme />
         <Projects projects={projects} />
         <Skills
           frontendSkills={frontendSkills}

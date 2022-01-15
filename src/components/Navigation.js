@@ -6,7 +6,7 @@ function Navigation(props) {
     <Navbar collapseOnSelect expand="lg" sticky="top" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand className="mx-2">
-          <Nav.Link href="#aboutme" className=" p-0">
+          <Nav.Link href="#hero" className=" p-0">
             <h1 className="text-primary border-bottom border-secondary m-0 logofont">
               GK
             </h1>
