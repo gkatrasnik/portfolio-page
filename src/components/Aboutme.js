@@ -21,7 +21,7 @@ const Aboutme = () => {
           until 2021 when the covid crisis hit. I had all the time in the world,
           so I decided to commit and learn programming for real. A friend of
           mine suggested me "Odin Project", open source web developement
-          curriculum and it took me about a year to complete it. In this time, I
+          curriculum and it took me about a year to complete it. In this time I
           learned a lot and created many interesting projects. Few of them are
           presented in the section below.
         </p>
