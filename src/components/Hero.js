@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
-import cv from "../assets/cv.pdf";
+import cv from "../assets/katrasnik_gasper.pdf";
 
 const Hero = () => {
   return (
