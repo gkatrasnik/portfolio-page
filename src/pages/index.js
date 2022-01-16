@@ -101,6 +101,10 @@ const IndexPage = () => {
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
         />
+        <meta
+          name="google-site-verification"
+          content="im__jZd2KkxF9OfY5O3OoD53mepZz8oEkucYRx58dA8"
+        />
       </Helmet>
       <ThreeCanvas />
       <main>
