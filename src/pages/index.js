@@ -32,6 +32,7 @@ const projects = [
     live: "https://natoci-vodo.netlify.app/",
     description:
       "This is my personal project. The idea is, that people can add locations of drinking water sources. The app is build with React and Firebase, using also Firebase Auth services. I used Leaflet and MaterialUI libraries. App is a PWA hosted on Netlify.",
+    demo: "Demo user: test@email.com, password: test123",
   },
   {
     text: "Odin Book",
@@ -40,6 +41,7 @@ const projects = [
     live: "https://odinbook.netlify.app/",
     description:
       "Odin book is a 'fake' social network. Users can write posts and see their friends posts. Users can send and accept friend requests, and see notifications. The app is made with React and Bootstrap, styled with Sass. App is a PWA hosted on Netlify.",
+    demo: "Demo user: test, password: test",
   },
   {
     text: "Odin Book API",

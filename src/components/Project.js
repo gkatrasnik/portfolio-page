@@ -12,6 +12,11 @@ const Project = (props) => {
         </Card.Title>
         <Card.Text>{props.project.description}</Card.Text>
       </Card.Body>
+      {props.project.demo && (
+        <Card.Footer>
+          <p>{props.project.demo}</p>
+        </Card.Footer>
+      )}
       <Card.Footer>
         <Card.Link href={props.project.github} as={Button}>
           Github
